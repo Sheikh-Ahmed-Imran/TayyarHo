@@ -16,7 +16,7 @@ export const HeroSection = () => {
             <Link href='/dashboard'className="bg-[#00F7FF] text-blue-900 font-bold cursor-pointer px-8 py-5 rounded-full hover:bg-[#00E5ED] transition-colors">
               Get Started 
             </Link>
-            <button className="flex justify-center items-center gap-2 text-white font-bold cursor-pointer px-[34px] py-5 rounded-full border-2 border-[#00F7FF] hover:bg-[rgba(255,255,255,0.1)] transition-colors">
+            <Link href='https://github.com/Sheikh-Ahmed-Imran/TayyarHo' className="flex justify-center items-center gap-2 text-white font-bold cursor-pointer px-[34px] py-5 rounded-full border-2 border-[#00F7FF] hover:bg-[rgba(255,255,255,0.1)] transition-colors">
               <svg
                 width="13"
                 height="16"
@@ -30,7 +30,7 @@ export const HeroSection = () => {
                 />
               </svg>
               Watch Demo
-            </button>
+            </Link>
           </div>
         </div>
         <img

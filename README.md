@@ -24,6 +24,7 @@ npm install
 Create a `.env` file in the root directory with the following variables:
 
 MONGODB_URI=your_mongodb_uri
+GemenAI_API_KEY=your_gemini_api_key
 ```
 4. Run the development server
 ```bash
